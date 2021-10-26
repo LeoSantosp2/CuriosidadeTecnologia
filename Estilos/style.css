@@ -109,7 +109,7 @@ main picture > img{
     width: 100%;
 }
 
-main  picture > img.pequeno{
+main picture > img.pequeno{
     display: block;
     max-width: 350px;
     margin: auto;
@@ -183,4 +183,10 @@ footer{
 
 footer > p{
     margin: 0px;
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--cor01);
+    font-family: Arial, Helvetica, sans-serif;
 }
